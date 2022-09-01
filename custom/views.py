@@ -37,4 +37,8 @@ class Companyview(APIView):
     def hy(self):
         return Response(status=status.HTTP_200_OK)
 
+    def hello(self):
+        return Response(status=status.HTTP_200_OK)
+
+
 
